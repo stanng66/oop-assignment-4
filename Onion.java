@@ -8,10 +8,32 @@
 // --------------------
 // This program demonstrates 
 // ====================
-// Assignment Requirement: Create 2nd Child :This will have private int attribute as layers 
+// Assignment Requirement: Create 2nd Child: Onion inheriting from vegetable
+public class Onion extends Vegetable {
+    // Assignment Requirement: This will have private int attribute as layers 
+    private int onionLayers;
 
-// Assignment Requirement: Onion inheriting from vegetable:
+    // Assignment Requirement: Create 2 constructors: pass color and name in super and set the layers with current attribute 
+    public Onion() {
+    }
 
-// Assignment Requirement: Create 2 constructors: pass color and name in super and set the layers with current attribute 
+    public Onion(String parmAttributeColor, String parmAttributeName, int parmOnionLayer) {
+        super(parmAttributeColor, parmAttributeName);
+        this.onionLayers = parmOnionLayer;
+    }
 
-// Assignment Requirement: Implement the body of isTasty.If you like the vegetable then return true
+    public int getOnionLayers() {
+        return onionLayers;
+    }
+
+    public void setOnionLayers(int parmOnionLayer) {
+        this.onionLayers = parmOnionLayer;
+    }
+
+
+    // Assignment Requirement: Implement the body of isTasty.If you like the vegetable then return true
+    @Override
+    public boolean isTasty() {
+        return true; // If you like the vegetable
+    }
+}

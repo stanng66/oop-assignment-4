@@ -8,10 +8,19 @@
 // --------------------
 // This program demonstrates 
 // ====================
-// Create 1st Child
+// Assignment Requirement: Create 1st Child - Carrot inheriting from vegetable
+public class Carrot extends Vegetable {
+    // Create 2 constructor ,pass color and name in super 
+    public Carrot() {
+    }
 
-// Carrot inheriting from vegetable
+    public Carrot(String parmAttributeColor, String parmAttributeName) {
+        super(parmAttributeColor, parmAttributeName);
+    }
 
-// Create 2 constructor ,pass color and name in super 
-
-// Implement the body of isTasty.If you like the vegetable then return true
+    // Assignment Requirement: Implement the body of isTasty. If you like the vegetable then return true
+    @Override
+    public boolean isTasty() {
+        return true; // if you like carrots
+    }
+}

@@ -8,14 +8,36 @@
 // --------------------
 // This program demonstrates 
 // ====================
-// Create TestVegetable Class : This will have main method
+// Assignment Requirement: Create TestVegetable Class - This will have main method
+public class TestVegetable {
+    public static void main(String[] args) {
+        // Polymorphism:1) Create Vegetable v1 of type carrot and 2) Vegetable v2 of type onion with 10 layers.
+        Vegetable v1 = new Carrot("Orange", "Carrot");
+        Vegetable v2 = new Onion("Yellow", "Onion", 10);
 
-// Polymorphism:1) Create Vegetable v1 of type carrot and 2) Vegetable v2 of type onion with 10 layers.
+        // Assignment Requirement: for each object
+        if (v1.isTasty()) {   // Assignment Requirement: If the isTasty is true then print I like stirfry of this vegetable
+           System.out.println("I like...");
+        } else {   // Assignment Requirement: If the isTasty is false then print I don't like stirfry of this vegetable
+           System.out.println("I don't like...");
+        }
 
-//  for each object
+        if (v2.isTasty()) {   // Assignment Requirement: If the isTasty is true then print I like stirfry of this vegetable
+            System.out.println("I like...");
+        } else {   // Assignment Requirement:  If the isTasty is false then print I don't like stirfry of this vegetable
+            System.out.println("I don't like...");
+        }
 
-// If the isTasty is true then print I like stirfry of this vegetable
+        // Assignment Requirement: Now create an example of downcasting using instanceof variable and show that v2 is carrot and v2 is onion
+        if (v2 instanceof Onion) {
+            Onion o = (Onion) v2;
+            System.out.println("v2 is an Onion with " + o.getOnionLayers() + " layers");
+        }
 
-// If the isTasty is false then print I don't like stirfry of this vegetable
-
-// Now create an example opf downcasting using instanceof variable and show that v2 is carrot and v2 is onion
+        if (v2 instanceof Carrot) {
+            System.out.println("v2 is a Carrot");
+        } else {
+            System.out.println("v2 is NOT a Carrot");
+        }
+    }
+}
