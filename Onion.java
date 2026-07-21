@@ -17,8 +17,8 @@ public class Onion extends Vegetable {
     public Onion() {
     }
 
-    public Onion(String parmAttributeColor, String parmAttributeName, int parmOnionLayer) {
-        super(parmAttributeColor, parmAttributeName);
+    public Onion(String parmVegetableColour, String parmVegetableName, int parmOnionLayer) {
+        super(parmVegetableColour, parmVegetableName);
         this.onionLayers = parmOnionLayer;
     }
 
@@ -31,7 +31,7 @@ public class Onion extends Vegetable {
     }
 
 
-    // Assignment Requirement: Implement the body of isTasty.If you like the vegetable then return true
+    // Assignment Requirement: Implement the body of isTasty. If you like the vegetable then return true
     @Override
     public boolean isTasty() {
         return true; // If you like the vegetable

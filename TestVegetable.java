@@ -17,15 +17,15 @@ public class TestVegetable {
 
         // Assignment Requirement: for each object
         if (v1.isTasty()) {   // Assignment Requirement: If the isTasty is true then print I like stirfry of this vegetable
-           System.out.println("I like...");
+           System.out.println("I like stirfry of this vegetable");
         } else {   // Assignment Requirement: If the isTasty is false then print I don't like stirfry of this vegetable
-           System.out.println("I don't like...");
+           System.out.println("I don't like stirfry of this vegetable");
         }
 
         if (v2.isTasty()) {   // Assignment Requirement: If the isTasty is true then print I like stirfry of this vegetable
-            System.out.println("I like...");
+            System.out.println("I like stirfry of this vegetable");
         } else {   // Assignment Requirement:  If the isTasty is false then print I don't like stirfry of this vegetable
-            System.out.println("I don't like...");
+            System.out.println("I don't like stirfry of this vegetable");
         }
 
         // Assignment Requirement: Now create an example of downcasting using instanceof variable and show that v2 is carrot and v2 is onion

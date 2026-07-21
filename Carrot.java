@@ -10,12 +10,13 @@
 // ====================
 // Assignment Requirement: Create 1st Child - Carrot inheriting from vegetable
 public class Carrot extends Vegetable {
-    // Create 2 constructor ,pass color and name in super 
+
+    // Create 2 constructor, pass color and name in super 
     public Carrot() {
     }
 
-    public Carrot(String parmAttributeColor, String parmAttributeName) {
-        super(parmAttributeColor, parmAttributeName);
+    public Carrot(String parmVegetableColour, String parmVegetableName) {
+        super(parmVegetableColour, parmVegetableName);
     }
 
     // Assignment Requirement: Implement the body of isTasty. If you like the vegetable then return true

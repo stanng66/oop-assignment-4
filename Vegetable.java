@@ -11,33 +11,33 @@
 // Assignment Requirement: Create abstract class called Vegetable. 
 public abstract class Vegetable {
     // Assignment Requirement: This class will have 2 Private String: attributes color and name
-    private String attributeColor;
-    private String attributeName;
+    private String vegetableColour;
+    private String vegetableName;
 
     // Assignment Requirement: Create default and 2 args constructors
     public Vegetable() {
     }
 
-    public Vegetable(String parmAttributeColor, String parmAttributeName) {
-        this.attributeColor = parmAttributeColor;
-        this.attributeName = parmAttributeName;
+    public Vegetable(String parmVegetableColour, String parmvegetableName) {
+        this.vegetableColour = parmVegetableColour;
+        this.vegetableName = parmvegetableName;
     }
 
     // Assignment Requirement: create getter and setter
-    public String getAttributeColor() {
-        return attributeColor;
+    public String getAttributeColour() {
+        return vegetableColour;
     }
 
-    public void setAttributeColor(String parmAttributeColor) { 
-        this.attributeColor = parmAttributeColor; 
+    public void setAttributeColour(String parmVegetableColour) { 
+        this.vegetableColour = parmVegetableColour; 
     }
 
     public String getAttributeName() {
-        return attributeName;
+        return vegetableName;
     }
 
-    public void setAttributeName(String parmAttributeName) {
-        this.attributeName = parmAttributeName;
+    public void setAttributeName(String parmvegetableName) {
+        this.vegetableName = parmvegetableName;
     }
 
     // Assignment Requirement: This class will have abstract method as isTasty The return type for this method is boolean
