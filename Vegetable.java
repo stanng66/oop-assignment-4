@@ -6,7 +6,7 @@
 // Mehrnaz Zhian
 // July 28, 2026
 // --------------------
-// This program demonstrates 
+// This program demonstrates inheritance and polymorphism
 // ====================
 // Assignment Requirement: Create abstract class called Vegetable. 
 public abstract class Vegetable {

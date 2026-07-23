@@ -6,7 +6,7 @@
 // Mehrnaz Zhian
 // July 28, 2026
 // --------------------
-// This program demonstrates 
+// This program demonstrates inheritance and polymorphism
 // ====================
 // Assignment Requirement: Create 2nd Child: Onion inheriting from vegetable
 public class Onion extends Vegetable {
