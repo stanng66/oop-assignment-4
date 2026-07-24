@@ -18,9 +18,9 @@ public abstract class Vegetable {
     public Vegetable() {
     }
 
-    public Vegetable(String parmVegetableColour, String parmvegetableName) {
+    public Vegetable(String parmVegetableColour, String parmegetableName) {
         this.vegetableColour = parmVegetableColour;
-        this.vegetableName = parmvegetableName;
+        this.vegetableName = parmegetableName;
     }
 
     // Assignment Requirement: create getter and setter
@@ -36,10 +36,11 @@ public abstract class Vegetable {
         return vegetableName;
     }
 
-    public void setAttributeName(String parmvegetableName) {
-        this.vegetableName = parmvegetableName;
+    public void setAttributeName(String parmVegetableName) {
+        this.vegetableName = parmVegetableName;
     }
 
     // Assignment Requirement: This class will have abstract method as isTasty The return type for this method is boolean
     public abstract boolean isTasty();
+    
 }
