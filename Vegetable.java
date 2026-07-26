@@ -18,25 +18,25 @@ public abstract class Vegetable {
     public Vegetable() {
     }
 
-    public Vegetable(String parmVegetableColour, String parmegetableName) {
+    public Vegetable(String parmVegetableColour, String parmVegetableName) {
         this.vegetableColour = parmVegetableColour;
-        this.vegetableName = parmegetableName;
+        this.vegetableName = parmVegetableName;
     }
 
     // Assignment Requirement: create getter and setter
-    public String getAttributeColour() {
+    public String getVegetableColour() {
         return vegetableColour;
     }
 
-    public void setAttributeColour(String parmVegetableColour) { 
+    public void setVegetableColour(String parmVegetableColour) { 
         this.vegetableColour = parmVegetableColour; 
     }
 
-    public String getAttributeName() {
+    public String getVegetableName() {
         return vegetableName;
     }
 
-    public void setAttributeName(String parmVegetableName) {
+    public void setVegetableName(String parmVegetableName) {
         this.vegetableName = parmVegetableName;
     }
 
